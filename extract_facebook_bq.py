@@ -186,7 +186,7 @@ def import_bq(dataframe):
     
   client = bigquery.Client()
           
-  table_id = "data-driven-344813.GhFly_AccurateData.ghfly_facebook_base_campanhas_full"
+  table_id = "" #Table bq directory
 
   job_config = bigquery.LoadJobConfig(
           schema=[
